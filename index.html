@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css"> <!-- Reinicia los estilos por defecto del navegador -->
+    <link rel="stylesheet" href="styles.css"> <!-- Estilos personalizados -->
+    <title>Encriptador de texto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <!-- Fuente personalizada desde Google Fonts -->
+    <script src="https://kit.fontawesome.com/56435b6968.js" crossorigin="anonymous"></script>
+    <!-- Kit de iconos de Font Awesome -->
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo Alura"> <!-- Logo del encabezado -->
+    </header>
+
+
+    <main>
+
+        <section class="input">
+            <textarea name="input-text" id="input-text" autocomplete="off"
+                placeholder="Ingrese el texto que desea encriptar aquí."></textarea> <!-- Área de entrada de texto -->
+            <div>
+                <p>El encriptador sólo acepta letras minúsculas y sin acentos.</p>
+                <div class="buttons">
+                    <button class="blue-button" id="encrypt" onclick="encrypt()">Encriptar</button>
+                    <!-- Botón para encriptar -->
+                    <button class="grey-button" id="desencrypt" onclick="desencrypt()">Desencriptar</button>
+                    <!-- Botón para desencriptar -->
+                </div>
+            </div>
+        </section>
+
+        <section class="output">
+            <div id="not-found">
+                <img class="doll" src="images/Muñeco.png" alt="imagen de muñeco con lupa">
+                <!-- Imagen de muñeco con lupa -->
+                <div class="text-box">
+                    <p>Al parecer ningún mensaje fue encontrado</p>
+                    <!-- Mensaje cuando no se encuentra ningún mensaje -->
+                    <p>Acá puedes ingresar el texto que desees encriptar o desencriptar.</p>
+                    <!-- Instrucciones para el usuario -->
+                </div>
+            </div>
+
+            <div class="result" id="result">
+                <p class="output-text" id="output-text"></p> <!-- Resultado del texto encriptado o desencriptado -->
+                <button class="blue-button" id="copy" onclick="copy()">Copiar</button>
+                <!-- Botón para copiar texto en el área de entrada -->
+                <button class="white-button" id="paste" onclick="paste()">Pegar</button>
+                <!-- Botón para pegar texto en el área de entrada -->
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Encriptador versión 1.0.0.1.21.05.23 por Alvaro Enrique Cascante Moraga para Alura ONE.</p>
+        <!-- Información de versión y autor -->
+        <a target="_blank" href="https://github.com/owllain"><i class="fa-brands fa-github"></i></a>
+        <!-- Enlace al perfil de GitHub -->
+        <a target="_blank" href="https://www.linkedin.com/in/enrique-cascante/"><i
+                class="fa-brands fa-linkedin"></i></a> <!-- Enlace al perfil de LinkedIn -->
+    </footer>
+    <script src="functions.js"></script> <!-- Archivo JavaScript con funciones relacionadas -->
+</body>
+
+</html>

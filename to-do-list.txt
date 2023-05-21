@@ -1,0 +1,35 @@
+1.Crear la estructura HTML básica:
+	Agregar los elementos necesarios, como contenedores, botones e input de texto.
+
+2.Estilizar la apariencia del encriptador usando CSS:
+	Definir estilos para los contenedores, botones y áreas de texto.
+	Aplicar colores, fuentes y tamaños adecuados para lograr el diseño deseado.
+
+3.Escribir el código JavaScript para las funciones de encriptar y desencriptar:
+	Definir objetos o variables que contengan los caracteres de encriptación y desencriptación.
+	Implementar una función para encriptar el texto de entrada.
+	Implementar una función para desencriptar el texto de entrada.
+	Validar el texto de entrada para asegurarse de que solo contiene letras minúsculas y sin acentos.
+
+4.Agregar interacción con el usuario:
+	Asociar eventos a los botones de encriptar y desencriptar para llamar a las funciones correspondientes.
+	Mostrar el resultado en el área de salida.
+	Mostrar mensajes de error si el texto de entrada no cumple con los requisitos.
+
+5.Implementar animaciones:
+	Agregar animaciones de transición o efectos visuales para mejorar la experiencia del usuario.
+	Utilizar CSS para definir las animaciones y aplicarlas a elementos específicos.
+
+6.Probar y depurar:
+	Verificar que el encriptador funcione correctamente en diferentes escenarios.
+	Realizar pruebas de encriptación y desencriptación con diferentes palabras y frases.
+	Solucionar cualquier error o comportamiento inesperado que se presente.
+
+7.Optimizar y refinar el código:
+	Revisar el código JavaScript y CSS para identificar oportunidades de mejora.
+	Eliminar código innecesario o redundante.
+	Mejorar la legibilidad y organización del código.
+
+8.Documentar el encriptador:
+	Agregar comentarios en el código para explicar su funcionamiento y cualquier aspecto relevante.
+	Proporcionar instrucciones claras sobre cómo utilizar el encriptador.
